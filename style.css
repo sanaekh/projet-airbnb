@@ -1,0 +1,108 @@
+/* header */
+header{
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button{
+    background-color: white;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 14PX;
+    width: 440px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 30PX;
+    padding-left: 30PX; 
+    border-radius: 20px;
+    border: 1px solid grey;
+    display: flex;
+}
+
+.logo{
+    margin-left: 5%;
+    width: 100px;
+    height: 30PX;
+}
+.img1{
+    width: 28px; 
+    display: flex;
+    margin-left: 9px;
+    margin-top: -5px;
+    
+}
+
+.img2{
+    width: 40px;
+    margin-left: 10PX;
+}
+.lien{
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 10PX;
+}
+.img3{
+    width: 15px;
+    text-align: center;
+    margin-top: 13px ;
+    margin-left: 5PX;
+}
+.img4{
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 9PX;
+}
+.button2{
+    width: 73PX;
+    height: 43PX;
+    background-color: white;
+    margin-left: 10px ;
+    border-radius: 20px;
+    border: 1px solid grey;
+    display: flex;
+}
+.header{
+    display: flex;
+    
+    
+}
+hr{ border: none;
+    height: 1px;
+    background-color:#dddddd;
+     }
+.P{
+    font-size: small;
+}
+/* nav */
+nav{
+    
+    text-align:center;
+}
+
+/* Section */
+.figure-img.img-fluid.rounded{
+    height: 320px;
+    width:  320px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.figure-caption{
+    margin-left: 20px;
+}
+section{
+    padding-left: 60px;
+
+}
+/* FOOTER */
+
+.list-inline{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 15px;
+   text-align:center;
+}
+  
+  
+
+
+

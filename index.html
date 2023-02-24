@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>page d'acceuil airbnb</title>
+  </head>
+  <body>
+
+   <!-- HEADER ! -->
+    <header>
+    <div class="header">
+      <img class="logo"src="data:image/png;base64,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">
+    <button class="button">
+        <span class="c"> <b> N'importe où &nbsp| &nbsp  Une semaine</b> &nbsp  | &nbsp  Ajouter des voyageurs </span>
+        <span>
+        <img class="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFrPEwkZt08XODDvFWJZUwQGVVR5olON0bc3QY_9qEDFGaOD4jogam68SGDjxp5NhUkzk&usqp=CAU">
+        </span>
+    </button>
+    
+      <div class="lien"><b>Mettre mon logement sur Airnb</b></div>
+      <div> 
+        <img class="img2" src="data:image/png;base64,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"></div>
+       <button class="button2">
+        <span><img class="img3" src="https://cdn-icons-png.flaticon.com/512/6499/6499731.png"></span>
+      <span><img class="img4" src="https://media.istockphoto.com/id/1393750072/vector/flat-white-icon-man-for-web-design-silhouette-flat-illustration-vector-illustration-stock.jpg?s=612x612&w=0&k=20&c=s9hO4SpyvrDIfELozPpiB_WtzQV9KhoMUP9R9gVohoU="></span>
+       </button>
+    </div>
+    </div>
+    <hr>
+    </header>
+    <nav>
+   <!--  Nav ! -->
+    <div>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span> piscines</p>
+      </button>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span> bord de mer</p>
+      </button>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/3b1eb541-46d9-4bef-abc4-c37d77e3c21b.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span> Avec vue</p>
+      </button>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/c8e2ed05-c666-47b6-99fc-4cb6edcde6b4.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span> Luxe</p>
+      </button>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/757deeaa-c78f-488f-992b-d3b1ecc06fc9.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span>Au pied des pistes</p>
+      </button>
+    
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span>Domes</p>
+      </button>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/78ba8486-6ba6-4a43-a56d-f556189193da.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span>Grandes demeures</p>
+      </button>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/6ad4bd95-f086-437d-97e3-14d12155ddfe.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span>Campagne</p>
+      </button>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span>Wow !</p>
+      </button>
+      <button class='btn btn-lg ' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/687a8682-68b3-4f21-8d71-3c3aef6c1110.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span>Bateaux</p>
+      </button>
+      <button class='btn btn-lg' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://a0.muscache.com/pictures/3726d94b-534a-42b8-bca0-a0304d912260.jpg" width="20px"><p class="P"><span class="fa fa-print fa-2x"></span>Tendance</p>
+      </button>
+      <button class='btn btn-lg' width="20px"> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div>  
+        <img src="https://www.innodura.fr/wp-content/uploads/1992/01/right-arrow.png" width="20px">
+      </button>
+        <button class='btn btn-lg' style='background-color:transparent;'> 
+        <div style='text-align:center;'><i class="fa fa-times"></i></div> 
+        <!-- Icone filter ! -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filter" viewBox="0 0 16 16">
+        <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+        </svg> 
+       <p class="P"><span class="fa fa-print fa-2x"></span>filtre</p>
+      </button>
+  
+      </div>
+      </nav>
+       <!-- Section  ! -->
+       <section>
+       <div class="section">
+       <figure class="figure">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-635021004127978817/original/1033af53-9a38-472b-a15b-42b018e04e30.jpeg?im_w=720"  
+        class="figure-img img-fluid rounded" >
+        <figcaption class="figure-caption">
+            <span><b>Porchinet, France</b></span> <br>
+            Vue plages et mer <br>
+            1-6 mars, Particulier<br>
+            <span>210 €</span> par nuit</figcaption>
+      </figure>
+      <figure class="figure">
+        <img 
+        src="https://a0.muscache.com/im/pictures/miso/Hosting-54352866/original/aa1eb626-8936-4dc4-b876-b60f60b07ec2.jpeg?im_w=720"  
+        class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">
+            <span><b>Saint-Gervais-les-Bains,France</b></span> <br>
+            Vues montagne et vallée <br>
+            16-21 avr, Particulier<br>
+            <span>613 €</span> par nuit</figcaption>
+      </figure>
+      <figure class="figure">
+        <img 
+        src="https://a0.muscache.com/im/pictures/8fa52248-d3d0-4656-8b3c-8259aa136ff0.jpg?im_w=720"  
+        class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">
+            <span><b>Novalaise, France</b></span> <br>
+            Vues montagne et lac<br>
+            18-23 mars, Professionel<br>
+            <span>236 €</span> par nuit</figcaption>
+      </figure>
+      <figure class="figure">
+        <img 
+        src="https://a0.muscache.com/im/pictures/miso/Hosting-577409157600964624/original/03c49dbe-0d8f-4baf-b172-50863574cd6a.jpeg?im_w=720"  
+        class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">
+            <span><b>Chamonix-Mont-Blanc, France</b></span> <br>
+            Vue montagne et jardin<br>
+            19-24 mars, Professionel<br>
+            <span>1658 €</span> par nuit</figcaption>
+      </figure>
+      <figure class="figure">
+        <img 
+        src="https://a0.muscache.com/im/pictures/miso/Hosting-7339763/original/14cde248-c93f-4f21-a26e-51f8cac9af14.jpeg?im_w=720"  
+        class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">
+            <span><b>Entremont, France</b></span> <br>
+            Vues montagne et vallée <br>
+            5-10 juin, Particulier <br>
+            <span>78 €</span> par nuit</figcaption>
+      </figure>
+      <figure class="figure">
+        <img 
+        src="https://a0.muscache.com/im/pictures/a8a5c738-eba2-418f-b7bf-55bfcbf79b55.jpg?im_w=720"  
+        class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">
+            <span><b>Géradmer, France</b></span> <br>
+            Vue sur le complexe hotelier<br>
+            4-9 mars, Particulier <br>
+            <span>870 €</span> par nuit</figcaption>
+      </figure>
+      <figure class="figure">
+        <img 
+        src="https://a0.muscache.com/im/pictures/3adc7105-bc48-4a40-ac50-5c80b3922230.jpg?im_w=720"  
+        class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">
+            <span><b>Essert-Romond, France</b></span> <br>
+            Vues sur la montagne <br>
+            12-19 mars, Particulier <br>
+            <span>795€</span> par nuit</figcaption>
+      </figure>
+      <figure class="figure">
+        <img 
+        src="https://a0.muscache.com/im/pictures/miso/Hosting-41363543/original/10350449-3e89-4f24-a5e7-0ed191a88cf4.jpeg?im_w=720"  
+        class="figure-img img-fluid rounded">
+        <figcaption class="figure-caption">
+            <span><b>Bossieu, France</b></span> <br>
+            Vues sur la montagne <br>
+            1-6 mars, Particulier <br>
+            <span>124 €</span> par nuit</figcaption>
+      </figure>
+       </div>
+       </section>
+        <!-- Section  ! -->
+        <hr>
+        <footer>
+          <div class="footer">
+            <ul class="list-inline">
+         <li class="list-inline-item">© 2023 Airbnb, Inc.&nbsp </li>
+         <li class="list-inline-item"><a href="https://www.airbnb.fr/help/article/2855">Confidentialité &nbsp</a></li>
+         <li class="list-inline-item"><a href="https://www.airbnb.fr/terms/privacy_policy">Conditions générales &nbsp</a></li>
+         <li class="list-inline-item"><a href="https://www.airbnb.fr/sitemaps/v2">Plan du site &nbsp</a></li>
+         <li class="list-inline-item"><a href="https://www.airbnb.fr/fonctionnement_du_site">Fonctionnement du site &nbsp</a></li>
+         <li class="list-inline-item"><a href="https://www.airbnb.fr/about/company-details">Infos sur l'entreprise &nbsp</a></li>
+         <li class="list-inline-item"><a >Destinations &nbsp</a></li>
+         <li class="list-inline-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+          <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+          </svg>
+        <a >Français (FR)&nbsp </a></li>
+         <li class="list-inline-item"><a >EUR &nbsp</a></li>
+         <li class="list-inline-item"><a >Assistance et ressources &nbsp</a></li>
+        </ul> 
+      </div>
+      </footer>
+  
+    
+  </body>
+</html>
